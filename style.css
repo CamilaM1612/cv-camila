@@ -10,13 +10,19 @@ body{
     background-color:#f4f6f8;
     line-height:1.6;
     color:#333;
+    margin-top:60px;
 }
 
 nav{
     background: linear-gradient(90deg, #5f2c82, #8a4fff, #b084ff);
     padding:10px 0;
     display:flex;
-    justify-content:center;
+    justify-content:flex-start;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1000;
 }
 
 .dropdown{
@@ -83,7 +89,6 @@ header p{
     margin:4px 0;
 }
 
-/* SECCIONES */
 section{
     background:white;
     width:80%;
